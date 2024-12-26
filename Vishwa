@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        /* Navigation */
+        nav ul {
+            background: #333;
+            color: #fff;
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Sections */
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        section {
+            padding: 2rem 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #007BFF;
+        }
+
+        .project {
+            margin-bottom: 1rem;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>John Doe</h1>
+            <p>Aspiring Software Developer | Student</p>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a computer science student passionate about learning and creating software solutions. I enjoy coding, problem-solving, and working on collaborative projects.</p>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: Python, JavaScript, Java</li>
+                <li>Web Development: HTML, CSS, React</li>
+                <li>Version Control: Git, GitHub</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Personal Website</h3>
+                <p>Created a responsive personal website using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project">
+                <h3>Weather App</h3>
+                <p>Developed a weather application using React and an external API for real-time data.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: john.doe@example.com</p>
+            <p>Phone: +123-456-7890</p>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 John Doe. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
